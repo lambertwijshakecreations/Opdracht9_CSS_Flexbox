@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+       <head>
+    <!-- hier zet je de code in de head tags -->
+         <title> Receptformulier </title>
+         <link rel="stylesheet" type="text/css" href="styles.css">
+       </head>
+       <body>
+       <header>
+        <h1 class="Black-border">Dit is een titel voor de achtste opdracht</h1>
+        <hr>
+       </header>
+       <nav>
+              <ul>
+                   <li>
+                          <a href="index.html">Home</a>
+                   </li>
+                   <li>
+                          <a href="contact.html">Contact formulier</a>
+                   </li>
+                   <li>
+                          <a href="about.html">Over mij</a>
+                   </li>
+                   <li>
+                          <a href="recept.html">Recept formulier</a>
+                   </li>
+                   <li>
+                          <a href="blog.html">Blog</a>
+                   </li>
+            </ul>
+     </nav>
+<main>
+    <form name="recept" method="POST" netlify data-netlify="true">
+        <label for="name">Voornaam:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="lname">Achternaam:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">E-mail adres:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Telefoonnummer:</label><br>
+        <input type="tel" id="phone" name="phone"><br>
+        <label for="age">Leeftijd:</label><br>
+        <input type="number" id="age" name="age"><br>
+        <label for="date">Geboortedatum:</label><br> 
+        <input type="number" id="date" name="date"><br>
+        <label for="gemder">Man</label>
+        <input type="radio" name="btn">
+        <label for="gemder">Vrouw</label>
+        <input type="radio" name="btn"><br><br>
+        <label>favoriete cuisine:<br><input type="checkbox" name="cuisine"/>Frans</label><br>
+        <label><input type="checkbox" name="cuisine"/>Italiaans</label><br>
+        <label><input type="checkbox" name="cuisine"/>Spaans</label><br>
+        <label><input type="checkbox" name="cuisine"/>Arabisch</label><br><br>
+        <label for="favcolor">favoriete kleur van je short:</label><br>
+        <input type="color" id="favcolor" name="favcolor" value="#ffffff"><br><br>
+        <label for="Bio">Biografie</label><br>
+        <textarea rows="10" cols="30"></textarea><br>
+        <label for="myfile">Upload je laatste recept :</label><br>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <label for="homepage">voeg hier uw recepten pagina toe:</label><br>
+        <input type="url" id="homepage" name="homepage"><br><br>
+        <input type="submit" value="Reset">
+        <input type="submit" value="Submit">
+      </form>
+</main>
+<footer>
+<h4 id="Info">Voor meer informatie over mij klik <a href="about.html">hier</a>.Of je kan altijd proberen mij te zoeken 
+op <a href="http://google.com" target="_blank">Google</a></h4>
+</footer>
+</body>
+</html>
